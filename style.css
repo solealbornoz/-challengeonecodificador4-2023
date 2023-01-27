@@ -1,0 +1,133 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+
+}
+
+::placeholder {
+    color: blue;
+}
+
+.text-area:focus {
+    outline: none
+}
+
+.mensaje {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+
+
+.mensaje {
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-image: url(Imagenes/mate.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 32px;
+    color: #0A3871;
+    left: 1000px;
+    top: 40px;
+    padding-left: 20px;
+    position: absolute;
+    width: 400px;
+    height: 760px;
+
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+
+.btn-copiar {
+    position: absolute;
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    left: 1032px;
+    top: 715px;
+
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    padding: 40px
+
+}
+
+.copyright{
+    color: #191970;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 20px;
+}
